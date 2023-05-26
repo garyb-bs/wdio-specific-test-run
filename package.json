@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bstack-single": "npx wdio resources/conf/wdio-bstack-single.conf.js --mochaOpts.grep \"Second IT\"",
+    "bstack-single": "npx wdio resources/conf/wdio-bstack-single.conf.js --mochaOpts.grep \"Specific Text\"",
+    "bstack-parallel": "npx wdio resources/conf/wdio-bstack-parallel.conf.js",
     "on-prem-suite": "npx wdio resources/conf/wdio-on-prem-suite.conf.js",
     "on-prem": "npx wdio resources/conf/wdio-on-prem.conf.js",
     "on-prem-suite-parallel": "npx wdio resources/conf/wdio-on-prem-suite-parallel.conf.js",

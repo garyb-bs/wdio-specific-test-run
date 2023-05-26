@@ -1,25 +1,19 @@
-const HomePage = require('../app/pages/homePage');
-const SignInPage = require('../app/pages/signInPage');
-const CheckoutPage = require('../app/pages/checkoutPage');
-const ConfirmationPage = require('../app/pages/confirmationPage');
-const OrdersPage = require('../app/pages/ordersPage');
+describe('Test Specific IT 1', () => {
 
-describe('Test Specific IT', () => {
-
-  it('First IT', () => {
-    console.log("First IT");
+  it('First IT - Test 1', () => {
+    console.log("First IT - Test 1");
   });
 
-  it('Second IT', () => {
-    console.log("Second IT");
+  it('Second IT - Test 1', () => {
+    console.log("Second IT - Test 1");
   });
 
-  it('Third IT', () => {
-    console.log("Third IT");
+  it('Third IT - Test 1', () => {
+    console.log("Third IT - Test 1");
   });
 
-  it('Fourth IT', () => {
-    console.log("Fourth IT");
+  it('Fourth IT - Test 1', () => {
+    console.log("Fourth IT - Test 1");
   });
 
 })
